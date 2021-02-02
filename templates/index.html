@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Uber Rides Prediction Model</title>
+        <title>Ola Rides Prediction Model</title>
         <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     </head>
     <body>
-        <h1>Uber Weekly Rides Analysis</h1>
+        <h1>Ola Weekly Rides Analysis</h1>
         <form action="{{url_for('predict')}}" method="post">
             <input type="text" name="Priceperweek" placeholder="Price per week" required="required">
             <input type="text" name="Population" placeholder="Population" required="required">
