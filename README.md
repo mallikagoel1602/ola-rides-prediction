@@ -11,12 +11,12 @@ Created Machine Learning model to predict number of weekly OLA rides using Multi
 
 Libraries Used:
 
--Numpy
--Pandas
--Matplotlib
--Sklearn
--pickle
--math
+1.Numpy
+2.Pandas
+3.Matplotlib
+4.Sklearn
+5.pickle
+6.math
 
 Web Framework Used: React
 
